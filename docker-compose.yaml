@@ -22,7 +22,7 @@ services:
     volumes:                                          #Mounts custom nginx.conf and .htpasswd into the container
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
       - ./htpasswd:/etc/nginx/.htpasswd
-    depends_on:                                       #Starts Nginx after the app containers
+    depends_on:                                       #Starts Nginx after the app containers.
       - app1
       - app2
     networks:
