@@ -16,7 +16,7 @@ This project demonstrates a Docker-based setup that runs two instances of a Pyth
 1. **Clone the repository**
    ```bash
    git clone https://github.com/abhijeetg1/project.git
-   cd DevOps---IOURING-
+   cd project
    ```
 
 2. **Build and run the containers**
